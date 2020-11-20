@@ -1,6 +1,6 @@
 package com.jtm.springframework.petclinic.model;
 
-public class PetType {
+public class PetType extends BaseEntity {
 	private String name;
 
 	public String getName() {
@@ -10,5 +10,5 @@ public class PetType {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 }
